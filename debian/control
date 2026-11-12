@@ -1,26 +1,29 @@
 Source: sphinxext-opengraph
 Section: python
-Priority: optional
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Uploaders: Norbert Preining <norbert@preining.info>,
-           Chiara Marmo <marmochiaskl@gmail.com>
-Build-Depends: debhelper-compat (= 13),
-               dh-python,
-               python3-all,
-               python3-debian,
-               python3-setuptools,
-               python3-pytest,
-               python3-sphinx,
-               python3-bs4
-Rules-Requires-Root: no
-Standards-Version: 4.6.2
+Uploaders:
+ Norbert Preining <norbert@preining.info>,
+ Chiara Marmo <marmochiaskl@gmail.com>,
+Build-Depends:
+ debhelper-compat (= 13),
+ dh-sequence-python3,
+ flit,
+ pybuild-plugin-pyproject,
+ python3-all,
+ python3-bs4 <!nocheck>,
+ python3-matplotlib <!nocheck>,
+ python3-pytest <!nocheck>,
+ python3-sphinx,
+Standards-Version: 4.7.4
 Homepage: https://github.com/wpilibsuite/sphinxext-opengraph
 Vcs-Git: https://salsa.debian.org/python-team/packages/sphinxext-opengraph.git
 Vcs-Browser: https://salsa.debian.org/python-team/packages/sphinxext-opengraph
 
 Package: python3-sphinxext-opengraph
 Architecture: all
-Depends: ${misc:Depends}, ${python3:Depends}
+Depends:
+ ${misc:Depends},
+ ${python3:Depends},
 Description: Sphinx Extension to enable OGP support
  This Sphinx extension generates OpenGraph metadata (https://ogp.me/)
  to enable any web page to become a rich object in a social graph.

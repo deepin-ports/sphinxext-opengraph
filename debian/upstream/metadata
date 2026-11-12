@@ -1,4 +1,5 @@
 Bug-Database: https://github.com/wpilibsuite/sphinxext-opengraph/issues
 Bug-Submit: https://github.com/wpilibsuite/sphinxext-opengraph/issues/new
-Repository: https://github.com/wpilibsuite/sphinxext-opengraph.git
-Repository-Browse: https://github.com/wpilibsuite/sphinxext-opengraph
+Documentation: https://sphinxext-opengraph.readthedocs.io/
+Repository: https://github.com/sphinx-doc/sphinxext-opengraph.git
+Repository-Browse: https://github.com/sphinx-doc/sphinxext-opengraph

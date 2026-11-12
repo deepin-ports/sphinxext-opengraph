@@ -1,3 +1,45 @@
+sphinxext-opengraph (0.13.0-2) unstable; urgency=medium
+
+  * Team Upload
+  * Rewrite d/watch in v5 format
+  * Salsa CI: test nocheck profile
+  * Mark python3-bs4, python3-matplotlib, python3-pytest as <!nocheck>
+  * Update standards version to 4.7.4, no changes needed.
+  * Set upstream metadata fields: Documentation, Repository...
+
+ -- Alexandre Detiste <tchet@debian.org>  Sun, 05 Jul 2026 14:57:13 +0200
+
+sphinxext-opengraph (0.13.0-1) unstable; urgency=medium
+
+  * Team Upload
+  * New upstream version 0.13.0
+  * Rename salsa-ci.yml to it's canonical name
+  * Disables useless Salsa CI jobs
+  * Use dh-sequence-python3
+  * Drop "Rules-Requires-Root: no": it is the default now
+  * Bump Standards-Version to 4.7.3, drop Priority: tag
+  * Drop build-dep on python3-setuptools, upstream has moved to "flit"
+  * Drop unused python3-debian build-dep
+
+ -- Alexandre Detiste <tchet@debian.org>  Thu, 05 Feb 2026 12:39:36 +0100
+
+sphinxext-opengraph (0.12.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Drop patch version-local, upstream has migrated to flit.
+  * Build with pybuild-plugin-pyproject and flit.
+  * Update copyright (and correctly name the license).
+  * Bump Standards-Version to 4.7.2, no changes needed.
+
+ -- Stefano Rivera <stefanor@debian.org>  Thu, 07 Aug 2025 13:47:04 +0200
+
+sphinxext-opengraph (0.8.1-1) unstable; urgency=low
+
+  * Update to version 0.8.1.
+  * Add matplotlib dependency.
+
+ -- Chiara Marmo <marmochiaskl@gmail.com>  Mon, 27 Feb 2023 08:11:40 +0000
+
 sphinxext-opengraph (0.7.5-1) unstable; urgency=low
 
   * Update to version 0.7.5.
